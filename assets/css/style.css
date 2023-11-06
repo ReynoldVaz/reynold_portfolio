@@ -727,9 +727,19 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     -o-transition:.5s;
     transition: .5s;
 }
+
+.contact-btn {
+    background-color: transparent !important;
+}
+input[type="submit"]:disabled {
+    /* background-color: #cccccc; */
+    cursor: not-allowed;
+}
+
 .contact-form .single-contact-btn .contact-btn ,
 .contact-form .single-contact-btn .contact-btn:focus {
     margin-top:0px;
+    cursor: not-allowed;
     outline: 0 !important;
     border:0;
     color: #fff;
@@ -744,6 +754,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 }
 .single-contact-btn:hover{
     background: #065cd4;
+    cursor: not-allowed;
     border: 1px solid #368aff;
     box-shadow: 0 5px 20px rgba(0,0,0,.2);
 }
